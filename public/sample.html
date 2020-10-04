@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>D3 Tutorial</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="content"></div>
+        </div>
+        <script src="d3.min.js"></script>
+        <script>
+            vardatainJSON= [
+                { "xpos": 30, "ypos": 30, "radius": 20, "fillColor" : "red" },
+                { "xpos": 100, "ypos": 100, "radius": 20, "fillColor" : "green"},
+                { "xpos": 170, "ypos": 170, "radius": 20, "fillColor" : "blue"}
+        ];
+        varsvgContainer= d3.select("#forSVG").append("svg").attr("width",200).attr("height",200);
+        </script>
+    </body>
+</html>
